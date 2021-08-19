@@ -5,7 +5,7 @@ const Dashboard = require('../models/admin')
 const Employee = require('../models/employee')
 const multer = require('multer')
 const {sendPassword} = require('../emails/account')
-const {sendCode} = require('../emails/forgotPassord')
+const {sendCode} = require('../emails/forgotPassword')
 //const sharp = require('sharp')
 /*
 const upload = multer ({
